@@ -10,32 +10,32 @@
     "PREFIXE":
     {
       "description":"choisissez votre préfixe",
-      "value":"#",
+      "value":".",
       "required":true
     },
     "LECTURE_AUTO_STATUS":
     {
       "description":"le bot lira tous les status automatiquement (oui pour activer et non pour désactiver)",
-      "value":"oui",
+      "value":"non",
       "required":false
     }, "TELECHARGER_AUTO_STATUS":
     {
       "description":"le bot téléchargera tous les status automatiquement (oui pour activer et non pour désactiver)",
-      "value":"oui",
+      "value":"non",
       "required":false
     }
     ,
      "PM_PERMIT" :
      {
       "description":"Les commandes seront pas fonctionnelles en priver pour les autres utilisateurs (oui pour activer et non pour désactiver)",
-      "value":"non",
+      "value":"oui",
       "required":false
     }
     ,
     "MODE_PUBLIC":
     {
       "description":"oui pour le mode public ou non pour le mode privé(Dans ce vous seul  utiliserez le bot)",
-      "value":"oui",
+      "value":"non",
       "required":false
     }
 	,
@@ -57,7 +57,7 @@
     "SESSION_ID":
     {
       "description":"veuillez renseigner votre id de session",   
-      "value":"",
+      "value":"Z-O-K-O-U_MD-RoshmanPhoebe",
       "required":true
       
     },
@@ -65,7 +65,7 @@
     {
     
     "desc": "Votre nom",
-    "required": false,
+    "required": "íɑʍDarryℓ",
     "value": "Djalega++"
   },
     "NUMERO_OWNER":
@@ -73,7 +73,7 @@
     
     "desc": "Votre numero de telephone; il doit etre dans le format ID+numero",
     "required":false,
-    "value": "22891733300"
+    "value": "237698261295"
   },
     "IMAGE_MENU":
    {
@@ -86,7 +86,7 @@
 {
     
     "desc": "Le nom du bot",
-    "required": false,
+    "required": "íɑʍDarryℓ",
     "value": "Ƶ𝓞ｋØ𝓊-2.0"
   },
     "WARN_COUNT":
@@ -106,7 +106,7 @@
 
   "addons":[
     {
-      "plan":"heroku-postgresql"
+      "plan":"clever-cloud-postgresql"
     }
   ]
 }
